@@ -1,13 +1,13 @@
 # Math Collections
 
 - [Linear Algebra](https://github.com/chengr4/linear-algebra)
-- [Probability](https://github.com/chengr4/linear-algebra)
+- [Probability](https://github.com/chengr4/probability)
 
 ## 迪摩根定理
 
 > De Morgan's laws
 
-```math
+```
 -(x | y) = -x & -y
 -(x & y) = -x ｜ -y
 ```
