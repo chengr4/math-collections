@@ -1,7 +1,7 @@
 # Math Collections
 
 - [Linear Algebra](https://github.com/chengr4/linear-algebra)
-- [Probability](https://github.com/chengr4/probability)
+- [Probability and Statistics](https://github.com/chengr4/probability-and-statistics)
 - [Number Sequence](./number-sequence)
 
 ## 迪摩根定理
