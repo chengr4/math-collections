@@ -3,6 +3,7 @@
 - [Linear Algebra](https://github.com/chengr4/linear-algebra)
 - [Probability](https://github.com/chengr4/probability)
 - [Number Sequence](./number-sequence)
+
 ## 迪摩根定理
 
 > De Morgan's laws
