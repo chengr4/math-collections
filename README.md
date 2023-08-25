@@ -17,8 +17,6 @@ Usage:
 
 These laws allow us to negate complex logical statements and to rewrite them in a different form that may be easier to understand or manipulate
 
-
-
 ## Symbols
 
 | Symbol | LaTeX | description |
