@@ -1,0 +1,43 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsfonts, amssymb, amsmath}
+\usepackage{parskip} % skip a line instead of indenting
+\usepackage{float} % for table placement
+
+\begin{document}
+Table:
+
+% c: center
+\begin{tabular}{|cccccc|}
+x & 1 & 2 & 3 & 4 & 5 \\
+\hline
+y & 2 & 4 & 6 & 8 & 10 \\
+\end{tabular}
+
+% H: place table here
+\begin{table}[H]
+\centering
+\def\arraystretch{1.5} % row height
+\begin{tabular}{|cccccc|}
+$x$ & 1 & 2 & 3 & 4 & 5 \\
+\hline
+$y$ & $\frac{1}{2}$ & 4 & 6 & 8 & 10 \\
+\hline
+\end{tabular}
+\caption{Table caption}
+\end{table}
+
+% for long text
+\begin{table}[H]
+  \centering
+  \def\arraystretch{1.5} % row height
+  \begin{tabular}{|lp{10cm}|}
+  \hline 
+  4 & 5 \\
+  \hline
+  8 & long longlonglonglonglonglonglonglonglong  glonglonglongglonglonglongglonglonglongglonglonglong\\
+  \hline
+  \end{tabular}
+  \caption{Table caption}
+  \end{table}
+
+\end{document}
