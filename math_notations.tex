@@ -1,4 +1,6 @@
 \documentclass[12pt]{article}
+\usepackage{amsfonts, amssymb, amsmath}
+\usepackage{parskip} % skip a line instead of indenting
 
 \begin{document}
 % a0, a1, a2, ..., a100
@@ -16,5 +18,29 @@ $${\frac{1}{2}}$$
 About $\displaystyle \frac{2}{3}$ of the glass is full \\[12pt]
 % to compare
 About $\frac{2}{3}$ of the glass is full
+
+Calculus:
+
+$$\left.\frac{dy}{dx}\right|_{x=1}$$
+
+Align:
+
+% basic
+\begin{align}
+ 5x^2-9 = x+3 \\
+ 5x^2-9x+4 = 0
+\end{align}
+
+% align with "=" use "&"
+% asterisk to remove numbering
+\begin{align*}
+ 5x^2-9 &= x+3 \\
+ 5x^2-9x+4 &= 0
+\end{align*}
+
+\begin{align}
+  5x^2-9 = x+3 \\
+  5x^2-9x+4 = 0
+\end{align}
 
 \end{document}
