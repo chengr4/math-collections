@@ -1,0 +1,41 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{parskip} % skip a line instead of indenting
+\usepackage{enumerate} % for \begin{enumerate}[A.] etc.
+
+
+\begin{document}
+Enumerate:
+
+\begin{enumerate}
+\item First item
+\item Second item
+\item Third item
+  \begin{enumerate}
+    \item First subitem
+    \item Second subitem
+  \end{enumerate}
+\end{enumerate}
+
+Itemize:
+
+\begin{itemize}
+\item First item
+\item Second item
+\end{itemize}
+
+Start with a specific number:
+\begin{enumerate} \setcounter{enumi}{5}
+\item Sixth item
+\item Seventh item
+\end{enumerate}
+
+Turn off numbers:
+\begin{enumerate}
+\item[] Sixth item
+\item[] Seventh item
+\end{enumerate}
+
+
+
+
+\end{document}
