@@ -33,6 +33,7 @@ These laws allow us to negate complex logical statements and to rewrite them in 
 | `.` | X | `A.B`: A 對像滿足 B 條件 |
 | $\pi$ | `\pi` | PI |
 | $\Pi$ | `\Pi` | Captial PI |
+| $\in$ | `\in` | 屬於 |
 
 ## Terms
 
@@ -49,7 +50,8 @@ These laws allow us to negate complex logical statements and to rewrite them in 
 ## References
 
 - [by 陳鍾誠教授](https://github.com/cccbook/math4code)
-- - [Wavelets: a mathematical microscope](https://youtu.be/jnxqHcObNK4)
+- [Wavelets: a mathematical microscope](https://youtu.be/jnxqHcObNK4)
+- [LaTeX – Full Tutorial for Beginners](https://youtu.be/ydOTMQC7np0?si=QMRjRJw0sgM-DVKC)
 
 ---
 
