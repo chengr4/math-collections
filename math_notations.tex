@@ -1,8 +1,16 @@
 \documentclass[12pt]{article}
 \usepackage{amsfonts, amssymb, amsmath}
+\usepackage{fullpage}
 \usepackage{parskip} % skip a line instead of indenting
 
 \begin{document}
+
+This is the symbol for the set of all real numbers: $\mathbb{R}$
+
+This is the symbol for the set of all integers: $\mathbb{Z}$
+
+This is the symbol for the set of all rational numbers: $\mathbb{Q}$
+
 % a0, a1, a2, ..., a100
 $${a_{0}, a_{1}, a_{2}, \ldots, a_{100}}$$
 $${y=\sin{x}}$$
@@ -22,6 +30,13 @@ About $\frac{2}{3}$ of the glass is full
 Calculus:
 
 $$\left.\frac{dy}{dx}\right|_{x=1}$$
+$$\lim_{x \to \infty} f(x)$$
+$$\lim_{x \to a} \frac{f(x)-f(a)}{x-a}$$
+
+% integral
+$$\int_{a}^{b} f(x) dx$$
+$$\int \sin{x} dx = -\cos{x} + C$$
+$$displaystyle{\int_{a}^{b} x^2 dx = \left[\frac{x^3}{3}\right]_{a}^{b}}$$
 
 Align:
 
@@ -42,5 +57,11 @@ Align:
   5x^2-9 = x+3 \\
   5x^2-9x+4 = 0
 \end{align}
+
+Sum:
+$$\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$$
+
+Vector:
+$$\vec{v} = \langle 1, 2, 3 \rangle$$
 
 \end{document}
