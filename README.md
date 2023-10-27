@@ -46,6 +46,7 @@ These laws allow us to negate complex logical statements and to rewrite them in 
 - Predicate(謂詞): eg. $x > 5$ is a predicate and its true or false depends on the value of $x$
 - Factoring(因式分解)
 - Axiom(公理): 一個公理是一個被認為是真的命題並且不需要證明，通常用來建立數學理論或系統的基礎
+  - 頭過身就過：若某一個理論合乎他所屬領域的公理，他也必定合乎公理的衍生理論
 
 ## References
 
