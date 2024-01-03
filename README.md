@@ -2,38 +2,28 @@
 
 - [Linear Algebra](https://github.com/chengr4/linear-algebra)
 - [Probability and Statistics](https://github.com/chengr4/probability-and-statistics)
+- [Discrete Mathematics](./discrete-mathematics/)
 - [Number Sequence](./number-sequence)
 - [Terms](#terms)
 
-## How to use
+## How to Use
 
-- Always see PDF and sometimes see README.md
-
-## 迪摩根定理
-
-> De Morgan's laws
-
-```
--(x | y) = -x & -y
--(x & y) = -x ｜ -y
-```
-
-Usage:
-
-These laws allow us to negate complex logical statements and to rewrite them in a different form that may be easier to understand or manipulate
+- Always read PDF and sometimes see README.md
 
 ## Notations
 
 | Notation | LaTeX | description |
 | ------ | ----- | ----------- |
 | $\leq$ | `\leq` | Less than or equal to |
-| $\to$ | `\to` | 一個命題的結果是另一個命題的結果，或者如果前者成立，則後者也必然成立 |
+| $\to$ | `\to` |  |
 | $\forall$ | `\forall` | For all |
 | $\phi$ | `\phi` | Phi. 常用於表示 property |
 | `.` | X | `A.B`: A 對像滿足 B 條件 |
 | $\pi$ | `\pi` | PI |
 | $\Pi$ | `\Pi` | Captial PI |
 | $\in$ | `\in` | 屬於 |
+| $\forall$ | `\forall` | for all |
+| $\exists$ | `\exists` | there exist |
 
 ## Terms
 

@@ -1,0 +1,48 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsfonts, amssymb, amsmath}
+\usepackage{parskip} % skip a line instead of indenting
+
+\title{Logic}
+\author{R4 Cheng}
+
+\begin{document}
+\maketitle
+
+De Morgan's laws:
+\begin{itemize}
+  \item $\neg (p \lor q) \equiv \neg p \land \neg q $
+  \item $\neg (p \land q) \equiv \neg p \lor \neg q $
+\end{itemize}
+
+Usage:
+
+De Morgan's laws allow us to negate complex logical statements and to rewrite them in a different form that may be easier to understand or manipulate
+
+\subsection*{Implication $p \Rightarrow q$}
+Def: An implication $p \Rightarrow q$ is a true if $p$ is false or $q$ is true.
+
+\begin{tabular}{|c|c|c|}
+\hline
+$p$ & $q$ & $p \Rightarrow q$ \\
+\hline
+T & T & T \\
+T & F & F \\
+F & T & T \\
+F & F & T \\
+\hline
+\end{tabular}
+
+\texttt{> "innocent until proven guilty" }
+
+\begin{itemize}
+  \item $(q \Rightarrow p)$: converse of $p \Rightarrow q$
+  \item $(\neg p \Rightarrow \neg q)$: contrapositive of $p \Rightarrow q$
+  \item $p \Rightarrow q \equiv \neg q \Rightarrow \neg p \equiv (\neg p) \lor q $
+\end{itemize}
+
+\subsection*{If and only if $p \Leftrightarrow q$}
+
+$$ p \Leftrightarrow q \equiv (p \Rightarrow q) \land (q \Rightarrow p) $$
+
+\end{document}
