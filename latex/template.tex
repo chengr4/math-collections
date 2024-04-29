@@ -3,14 +3,27 @@
 \usepackage{fullpage}
 \usepackage{parskip} % skip a line instead of indenting
 % \usepackage{graphicx} % for inserting images
+\usepackage{amsthm}
+\usepackage{xcolor}
+
+\newtheorem*{rem}{Remark}
 
 \title{Title}
 \author{Author}
 \date{\today}
 
+\newcommand{\remark}[1]{
+  \begin{rem}
+    \color{cyan}
+    #1
+  \end{rem}
+}
+
 \begin{document}
 % \tableofcontents % generate a table of contents
 \maketitle
-123
+
+\remark{test}
+
 \end{document}
 
