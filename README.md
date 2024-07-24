@@ -24,6 +24,7 @@
 | $\in$ | `\in` | 屬於 |
 | $\forall$ | `\forall` | for all |
 | $\exists$ | `\exists` | there exist |
+| $\triangleq$ | `\triangleq` | is defined as |
 
 ## Terms
 
