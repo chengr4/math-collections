@@ -39,13 +39,16 @@
 - Axiom(公理): 一個公理是一個被認為是真的命題並且不需要證明，通常用來建立數學理論或系統的基礎
   - 頭過身就過：若某一個理論合乎他所屬領域的公理，他也必定合乎公理的衍生理論
 
+## Random Notes
+
+- 工程數學方程式 (equation) 會對應某一個系統用以描述問題
+- 微分方程式 (differential equation) aka. 變化率，可以找到系統原始狀態
+
 ## References
 
 - [by 陳鍾誠教授](https://github.com/cccbook/math4code)
 - [Wavelets: a mathematical microscope](https://youtu.be/jnxqHcObNK4)
 - [LaTeX – Full Tutorial for Beginners](https://youtu.be/ydOTMQC7np0?si=QMRjRJw0sgM-DVKC)
-
----
 
 ## Remark
 
