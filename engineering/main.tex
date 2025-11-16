@@ -1,0 +1,92 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsfonts, amssymb, amsmath}
+\usepackage{fullpage}
+\usepackage{parskip} % skip a line instead of indenting
+% \usepackage{graphicx} % for inserting images
+\usepackage{amsthm}
+\usepackage{xcolor}
+\usepackage{tikz} % for plot
+
+\title{Engineering Mathematics}
+\author{R4 Cheng}
+\date{\today}
+
+\newcommand{\remark}[1]{
+    $>$ {\color{blue} #1}
+}
+
+\begin{document}
+\maketitle
+
+\section*{Common Reasoning}
+
+\[\int \frac{1}{x} \, dx = \ln|x| + C\]
+
+\remark{This is valid for $x \neq 0$, and the absolute value ensures the logarithm is defined for both positive and negative values of $x$.}
+
+\section*{Total Derivative}
+
+\[ d\phi = \frac{\partial \phi}{\partial x}dx + \frac{\partial \phi}{\partial y}dy\]
+
+\remark{When partially differentiating with respect to $x$, treat $y$ as a constant, and vice versa.}
+
+\section*{Linear Algebra}
+
+\subsection*{Transportation}
+
+\[
+A = 
+\begin{bmatrix}
+  1 & 2 & 3 \\
+  4 & 5 & 6 \\
+  7 & 8 & 9
+\end{bmatrix}
+\Rightarrow
+A^T =
+\begin{bmatrix}
+  1 & 4 & 7 \\
+  2 & 5 & 8 \\
+  3 & 6 & 9
+\end{bmatrix}
+\Rightarrow
+A^T_{ij} = A_{ji}
+\]
+
+\subsection*{Speical types of Matrices}
+
+\subsubsection*{Diagonal Matrix}
+
+E.g.
+
+\[
+D =
+\begin{bmatrix}
+  1 & 0 & 0 \\
+  0 & 2 & 0 \\
+  0 & 0 & 3
+\end{bmatrix}
+\]
+
+Another example ($3 \times 4$):
+
+\[
+D =
+\begin{bmatrix}
+  5 & 0 & 0 & 0 \\
+  0 & 1 & 0 & 0 \\
+  0 & 0 & 7 & 0
+\end{bmatrix}
+\]
+
+\subsubsection*{Identity Matrix (Unit Matrix)}
+
+\[
+I =
+\begin{bmatrix}
+    1 & 0 & 0 \\
+    0 & 1 & 0 \\
+    0 & 0 & 1
+\end{bmatrix}
+\]
+
+\end{document}
